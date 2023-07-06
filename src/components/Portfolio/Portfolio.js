@@ -95,7 +95,7 @@ const Portfolio = () => {
                 <a href='https://github.com/Subham-hyna/Microsoft-Clone' target='_7'>
                 <button className='p-button'>Code</button>
                 </a>
-                <a href='https://microsoft-clone.onrender.com/' target='_8'>
+                <a href='https://microsoft-clone.onrender.com/' target='_14'>
                 <button className='p-button'>Live</button>
                 </a>
             </div>
@@ -103,8 +103,12 @@ const Portfolio = () => {
         <SwiperSlide>
             <img src={Per_Portfolio} />
             <div className='links'>
+                <a href='https://github.com/Subham-hyna/Personal-Portfolio' target='_7'>
                 <button className='p-button'>Code</button>
+                </a>
+                <a href='https://personal-portfolio-yvpd.onrender.com/' target='_13'>
                 <button className='p-button'>Live</button>
+                </a>
             </div>
         </SwiperSlide>
     </Swiper>

@@ -32,17 +32,17 @@ const About = () => {
   return (
     <div className='about' id='about'>
         <div className='a-left'>
-            <img src={Subham}/>
+            <img src={Subham} alt='Subham-Profile'/>
         </div>
         <div className='a-right'>
             <div className='a-name'>About Me</div>
             <span>Welcome to my creative world where technology, art, and design converge! I am a versatile professional with expertise in full stack web development, photography, and graphics design. With a passion for innovation, I bring imaginative concepts to life through stunning digital experiences. From crafting visually appealing websites to capturing captivating moments and creating visually captivating designs, I seamlessly integrate design, development, and photography to create remarkable digital experiences. Let's collaborate and bring your vision to life. </span>
             <div className='a-tabs'>
-                <span className={activeLink == 'skills' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('skills')}}>Skills</span>
-                <span className={activeLink == 'education' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('education')}}>Education</span>
-                <span className={activeLink == 'languages' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('languages')}}>Languanges</span>
+                <span className={activeLink === 'skills' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('skills')}}>Skills</span>
+                <span className={activeLink === 'education' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('education')}}>Education</span>
+                <span className={activeLink === 'languages' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('languages')}}>Languanges</span>
             </div>
-            <div className={activeTab == 'skills' ? 'a-tabContents active-tab':'a-tabContents'} id="skills">
+            <div className={activeTab === 'skills' ? 'a-tabContents active-tab':'a-tabContents'} id="skills">
                 <span>These are the technologies I've worked with</span>
                 <div className='skill-icons'>
                     <div className='skill-box' style={{	boxShadow:' 0 4px 6px -1px #f97316, 0 2px 4px -2px #f97316'}}>
@@ -107,14 +107,14 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className={activeTab == 'education' ? 'a-tabContents active-tab':'a-tabContents'} id="education">
+            <div className={activeTab === 'education' ? 'a-tabContents active-tab':'a-tabContents'} id="education">
                 <ul>
                     <li><span>2021 - Present</span><br/>B.Tech, National Institute of Technology, Silchar</li>
                     <li><span>2018 - 2020</span><br/>Higher Secondary, C V Raman Academy of Science</li>
                     <li><span>2008 - 2018</span><br/>Oasis Academy</li>
                 </ul>
             </div>
-            <div className={activeTab == 'languages' ? 'a-tabContents active-tab':'a-tabContents'} id="languages">
+            <div className={activeTab === 'languages' ? 'a-tabContents active-tab':'a-tabContents'} id="languages">
             <div className='language'>
                 <ul>
                     <li style={{marginBottom : '30px'}}><span>English</span><br/>⭐⭐⭐⭐</li>

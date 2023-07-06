@@ -17,7 +17,7 @@
     padding: 15px 8px 15px 5px;
     justify-content: space-between;
     align-items: center;
-    transition: 0.2s ease-in;
+    transition: 0.5s ease-in-out;
     margin-left: -95px;
     z-index: 10;
 }
