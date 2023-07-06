@@ -1,0 +1,159 @@
+.services{
+    padding: 0 3rem;
+    display: flex;
+    gap: 10rem;
+    margin-top: 9rem;
+}
+
+.awesome{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.awesome>:nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(2){
+    color: var(--orange);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.awesome>:nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+}
+
+.s-button{
+    width: 6rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+
+
+.cards{
+    position: relative;
+    height: 750px;
+}
+
+.cards>*{
+    position: absolute;
+}
+
+.cards>*:hover{
+    transform: scale(1.02);
+}
+
+.s-blur1{
+    top: 13rem;
+    left: -18rem;
+}
+
+.s-blur2{
+    top: 8rem;
+    left: 14rem;
+}
+
+@media screen and (max-width: 640px){
+    .services{
+        flex-direction: column !important;
+        padding: 0;
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .awesome>:nth-child(3){
+        margin: 20px 0;
+    }
+
+    .cards>*{
+        position: static;
+        justify-content: center;
+    }   
+
+    .cards{
+        height: 1000px;
+    }
+
+    .cards>:nth-child(2){
+        margin-left: 0px !important;
+    }
+
+}
+
+@media screen and (max-width: 820px) {
+    .services{
+        flex-direction: column !important;
+        padding: 0;
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .awesome>:nth-child(3){
+        margin: 20px 0;
+    }
+
+    .cards>*{
+        position: static;
+        justify-content: center;
+    }   
+
+    .cards{
+        height: 1000px;
+    }
+
+    .cards>:nth-child(1){
+        margin-right: 200px;
+    }
+    .cards>:nth-child(2){
+        margin-left: 200px;
+    }
+    .cards>:nth-child(3){
+        margin-right: 200px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .services{
+        flex-direction: row;
+        padding: 0;
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .cards{
+        height: 1000px;
+    }
+
+    .cards>:nth-child(1){
+        left: 2rem !important;
+        top: 3rem !important;
+    }
+
+    .cards>:nth-child(2){
+        left: -15rem !important;
+    }
+
+    .cards>:nth-child(3){
+        left: 0rem !important;
+        top: 20rem !important;
+    }
+
+}
+
+@media screen and (max-width: 1240px) {
+    .services{
+        flex-direction: row;
+        padding: 0;
+        margin-top: 5rem;
+        gap: 3rem;
+    }
+
+    .cards{
+        height: 1000px;
+    }
+}

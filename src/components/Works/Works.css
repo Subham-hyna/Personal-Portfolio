@@ -1,0 +1,303 @@
+.works{
+    display: flex;
+    padding:0 3rem;
+    /* height: 90vh; */
+    margin-top: 4rem;
+}
+
+.w-right{
+    position: relative;
+    height: 500px;
+}
+
+.w-mainCircle{
+    left: 9rem;
+    position: relative;
+    width: 18rem;
+    height: 18rem;
+    border-radius: 100%;
+    box-shadow: 2px 2px 20px 5px rgba(0,0,0,0.1);
+    top: 2rem;
+    background: white;
+    z-index: 10;
+    animation: rotate 20s linear infinite;
+}
+
+.w-mainCircle>*{
+    position: absolute;
+}
+
+.w-mainCircle > :nth-child(1){
+    top: -3rem;
+    left: 6rem;
+}
+
+.w-mainCircle > :nth-child(2){
+    top: 5rem;
+    left: -3rem;
+}
+
+.w-mainCircle > :nth-child(3){
+    top: 5rem;
+    left: 6rem;
+}
+
+.w-mainCircle > :nth-child(4){
+    top: 5rem;
+    left: 15rem;
+}
+
+.w-mainCircle > :nth-child(5){
+    top: 13rem;
+    left: 6rem;
+}
+
+.w-semiCircle{
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    border-radius: 100%;
+    justify-content: center;
+    border: 5px solid #ebebeb;
+    background: white;
+    box-shadow: -4px 2px 13px 1px var(--orange);
+    z-index: 100;
+}
+
+.w-semiCircle>img{
+    transform: scale(0.6);
+}
+
+.w-backCircle{
+    position: absolute;
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    z-index: 1;
+}
+
+.blueCircle{
+    background: #1949BB;
+    left: 18rem;
+    top: 0rem;
+}
+
+.yellowCircle{
+    background: #F3C32C;
+    left: 18rem;
+    top: 8rem;
+}
+
+@keyframes rotate{
+    from{ transform: rotate(-360deg); }
+    to{ transform: rotate(360deg); }
+}
+
+@media screen and (max-width: 640px){
+    .works{
+        flex-direction: column;
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .w-mainCircle{
+        left: 0;
+        width: 14rem;
+        height: 14rem;
+        margin: 0 auto;
+    }
+
+    .w-backCircle{
+        width: 8rem;
+        height: 8rem;
+    }
+    .w-semiCircle{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .w-mainCircle > :nth-child(1){
+        top: -2rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(2){
+        top: 5rem;
+        left: -2rem;
+    }
+    
+    .w-mainCircle > :nth-child(3){
+        top: 5rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(4){
+        top: 5rem;
+        left: 12rem;
+    }
+    
+    .w-mainCircle > :nth-child(5){
+        top: 11.5rem;
+        left: 5rem;
+    }
+
+    .blueCircle{
+        left: 16rem !important;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 16rem !important;
+        top: 8rem;
+    }
+
+}
+
+@media screen and (max-width: 450px) {
+    .blueCircle{
+        left: 12rem !important;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 12rem !important;
+        top: 8rem;
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .works{
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .w-mainCircle{
+        left: 0;
+        width: 14rem;
+        height: 14rem;
+        margin: 0 auto;
+    }
+
+    .w-backCircle{
+        width: 8rem;
+        height: 8rem;
+    }
+    .w-semiCircle{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .w-mainCircle > :nth-child(1){
+        top: -2rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(2){
+        top: 5rem;
+        left: -2rem;
+    }
+    
+    .w-mainCircle > :nth-child(3){
+        top: 5rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(4){
+        top: 5rem;
+        left: 12rem;
+    }
+    
+    .w-mainCircle > :nth-child(5){
+        top: 11.5rem;
+        left: 5rem;
+    }
+
+    .blueCircle{
+        left: 16rem;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 16rem;
+        top: 8rem;
+    }
+
+    .blueCircle{
+        left: 9rem;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 9rem;
+        top: 8rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .works{
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .w-mainCircle{
+        left: 0;
+        width: 14rem;
+        height: 14rem;
+        margin: 0 auto;
+    }
+
+    .w-backCircle{
+        width: 8rem;
+        height: 8rem;
+    }
+    .w-semiCircle{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .w-mainCircle > :nth-child(1){
+        top: -2rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(2){
+        top: 5rem;
+        left: -2rem;
+    }
+    
+    .w-mainCircle > :nth-child(3){
+        top: 5rem;
+        left: 5rem;
+    }
+    
+    .w-mainCircle > :nth-child(4){
+        top: 5rem;
+        left: 12rem;
+    }
+    
+    .w-mainCircle > :nth-child(5){
+        top: 11.5rem;
+        left: 5rem;
+    }
+
+    .blueCircle{
+        left: 16rem;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 16rem;
+        top: 8rem;
+    }
+
+    .blueCircle{
+        left: 9rem;
+        top: 1rem;
+    }
+    
+    .yellowCircle{
+        left: 9rem;
+        top: 8rem;
+    }
+}

@@ -1,0 +1,44 @@
+.social-links{
+    position: fixed;
+    top: 250px;
+    left: 0px;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 8px 8px 0;
+    z-index: 90;
+    box-shadow: 8px 19px 18px 6px rgba(251,161,40,0.42);
+}
+
+.social-tab{
+    width: 130px;
+    display: flex;
+    padding: 15px 8px 15px 5px;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.2s ease-in;
+    margin-left: -95px;
+    z-index: 10;
+}
+
+.social-tab>span{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.social-tab>i{
+    transform: scale(0.9);
+}
+
+.social-tab:hover{
+    margin-left: 0;
+    background: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);
+    border-radius: 0 8px 8px 0 !important;
+}
+
+@media screen and (max-width: 820px) {
+    .social-links{
+        display : none;
+    }
+}
