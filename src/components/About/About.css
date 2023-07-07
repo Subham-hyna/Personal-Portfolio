@@ -178,6 +178,10 @@
         border-radius: 100%;
     }
 
+    #skills{
+        height: 400px;
+    }
+
     .skill-box{
         width: 150px;
     }
