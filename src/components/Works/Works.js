@@ -28,7 +28,7 @@ const Works = () => {
             <a href='mailto: dsubham490@gmail.com'>
             <button className='button s-button'>Hire me</button>
             </a>
-            <div className='blur s-blur1' style={{background : '#ABF1FF94'}}></div>
+            <div className='blur s=-blur1' style={{background : '#ABF1FF94'}}></div>
         </div>
 
         <div className='w-right'>

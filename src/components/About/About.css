@@ -11,12 +11,14 @@
     width: 400px;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .a-left>img{
     border: 5px solid var(--orange);
     box-shadow: var(--boxShadow);
     width: 400px;
+    height: 500px;
     border-radius: 20px;
 }
 
@@ -91,7 +93,8 @@
 .a-tabContents{
     display: none;
     height: 250px;
-    overflow: scroll;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
 }
 
 .a-tabContents.active-tab{
@@ -132,6 +135,10 @@
     color: var(--black);
 }
 
+#skills{
+    height: 400px;
+}
+
 .a-blur1{
     top: 50%;
     left: 85%;
@@ -144,6 +151,7 @@
 
     .a-left>img{
         width: 250px !important;
+        height: 320px !important;
     }
 
     .a-tabs{
@@ -198,7 +206,7 @@
 
     .a-left{
         align-items: center;
-        margin: auto;
+        margin: 0 auto;
         text-align: center;
         object-fit: cover;
         width: 300px;
@@ -206,6 +214,7 @@
 
     .a-left>img{
         width: 300px;
+        height: 350px;
         border-radius: 100%;
     }
 }
@@ -236,6 +245,7 @@
 
     .a-left>img{
         width: 350px;
+        height: 420px;
         border-radius: 100%;
     }
 }

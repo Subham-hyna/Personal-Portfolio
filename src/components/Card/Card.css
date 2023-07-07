@@ -12,6 +12,7 @@
     box-shadow: var(--boxShadow);
     border-radius: 20px;
     padding: 0px 26px 2rem 26px;
+    /* animation: left-to-right 3s linear infinite; */
 }
 
 .card span:nth-child(2){
@@ -42,6 +43,18 @@
     transform: scale(1.01);
 }
 
+@keyframes left-to-right {
+    0% {
+        transform: translateX(-20px);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(-20px);
+    }
+}
+
 @media screen and (max-width: 640px){
     .card{
         position: static;
@@ -57,3 +70,4 @@
 
     }   
 }
+

@@ -20,7 +20,7 @@
     top: 2rem;
     background: white;
     z-index: 10;
-    animation: rotate 20s linear infinite;
+    animation: rotate 25s linear infinite;
 }
 
 .w-mainCircle>*{

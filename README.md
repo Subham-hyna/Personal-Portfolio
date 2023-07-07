@@ -57,7 +57,7 @@ To run the website locally, follow these steps:
 If you have any inquiries or would like to collaborate on a project, feel free to reach out to me:
 
 - Email: [dsubham490@gmail.com](mailto:dsubham490@gmail.com)
-- LinkedIn: [SUbham Dutta](https://www.linkedin.com/in/subhamdutta02)
+- LinkedIn: [Subham Dutta](https://www.linkedin.com/in/subhamdutta02)
 
 I am open to new opportunities and excited to connect with like-minded individuals in the industry!
 

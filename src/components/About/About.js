@@ -18,6 +18,7 @@ import Mongodb from './LOGO/Mongodb.png'
 import Tailwind from './LOGO/Tailwind.png'
 import Bootstrap from './LOGO/Bootstrap.png'
 import ReactLogo from './LOGO/REACT.png'
+import Jquery from './LOGO/Jquery.png'
 
 const About = () => {
     const theme =useContext(themeContext);
@@ -92,6 +93,10 @@ const About = () => {
                     <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #8b5cf6, 0 2px 4px -2px #8b5cf6'}}>
                             <img src={Bootstrap} style={{width : '40px'}}/>
                             <span style={{color : darkMode ? 'white' : ''}}>Bootstrap</span>
+                    </div>
+                    <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #1d4ed8, 0 2px 4px -2px #1d4ed8'}}>
+                            <img src={Jquery} style={{width : '40px', borderRadius : '100%'}}/>
+                            <span style={{color : darkMode ? 'white' : ''}}>JQuery</span>
                     </div>
                     <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #0f766e, 0 2px 4px -2px #0f766e'}}>
                             <img src={Photoshop} style={{width : '70px'}}/>
