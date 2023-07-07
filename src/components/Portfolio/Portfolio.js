@@ -106,7 +106,7 @@ const Portfolio = () => {
                 <a href='https://github.com/Subham-hyna/Personal-Portfolio' target='_7'>
                 <button className='p-button'>Code</button>
                 </a>
-                <a href='https://personal-portfolio-yvpd.onrender.com/' target='_13'>
+                <a href='https://subham-personal-portfolio.netlify.app/' target='_13'>
                 <button className='p-button'>Live</button>
                 </a>
             </div>
