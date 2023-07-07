@@ -88,7 +88,7 @@ const Intro = () => {
             <div className='i-icons'>
             <a href='https://github.com/Subham-hyna' target='_' ><i className="fa-brands fa-github fa-2xl"></i></a>
             <a href='https://www.linkedin.com/in/subhamdutta02' target='_' ><i className="fa-brands fa-linkedin fa-2xl"></i></a>
-            <a href='https://www.instagram.com/in/subhamdutta02' target='_' ><i className="fa-brands fa-instagram fa-2xl"></i></a>
+            <a href='https://www.instagram.com/_________.subham/' target='_' ><i className="fa-brands fa-instagram fa-2xl"></i></a>
             </div>
         </div>
         <div className='i-right'>

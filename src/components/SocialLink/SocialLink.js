@@ -9,7 +9,7 @@ const SocialLink = () => {
             <i className="fa-brands fa-linkedin fa-2xl"></i>
         </div>
             </a>
-        <a href='https://www.instagram.com/in/subhamdutta02' target='_9' style={{textDecoration : 'none', color:'white'}}>
+        <a href='https://www.instagram.com/_________.subham/' target='_9' style={{textDecoration : 'none', color:'white'}}>
         <div className='social-tab'>
             <span>Instagram</span>
             <i className="fa-brands fa-instagram fa-2xl"></i>
