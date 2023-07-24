@@ -14,7 +14,7 @@
 .social-tab{
     width: 130px;
     display: flex;
-    padding: 15px 8px 15px 5px;
+    padding: 18px 8px 18px 5px;
     justify-content: space-between;
     align-items: center;
     transition: 0.3s ease-in-out;
@@ -28,7 +28,7 @@
 }
 
 .social-tab>i{
-    transform: scale(0.9);
+    transform: scale(0.7);
 }
 
 .social-tab:hover{
