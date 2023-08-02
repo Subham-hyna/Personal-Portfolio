@@ -81,7 +81,7 @@ const Intro = () => {
                 in web designing and development, producing and Quality 
                 work</span>
             </div>
-            <a href={Resume} download>
+            <a href="https://drive.google.com/file/d/1EIzHyxVfE4u-BIkrYRqGCrU3k_6kPLKb/view?usp=drive_link" targer="_blank" download>
             <button className='button i-button'>Download CV</button>
             </a>
 
