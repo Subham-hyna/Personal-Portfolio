@@ -41,7 +41,7 @@ const About = () => {
             <div className='a-tabs'>
                 <span className={activeLink === 'skills' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('skills')}}>Skills</span>
                 <span className={activeLink === 'education' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('education')}}>Education</span>
-                <span className={activeLink === 'languages' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('languages')}}>Languanges</span>
+                <span className={activeLink === 'languages' ? 'tab-links active-link':'tab-links'} style={{color : darkMode ? 'white' : ''}} onClick={()=>{ onUpdateActiveLink('languages')}}>Languages</span>
             </div>
             <div className={activeTab === 'skills' ? 'a-tabContents active-tab':'a-tabContents'} id="skills">
                 <span>These are the technologies I've worked with</span>
