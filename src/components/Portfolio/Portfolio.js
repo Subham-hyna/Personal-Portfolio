@@ -7,6 +7,7 @@ import Text_Analyzer from './Projects/Text_Analyzer.png'
 import Microsoft from './Projects/Microsoft.png'
 import Per_Portfolio from './Projects/Per_Portfolio.png'
 import ToDoList from './Projects/ToDoList.png'
+import ChatApp from './Projects/ChatApp.png'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
@@ -119,6 +120,17 @@ const Portfolio = () => {
                 <button className='p-button'>Code</button>
                 </a>
                 <a href='https://todo-list-qdib.onrender.com/' target='_16'>
+                <button className='p-button'>Live</button>
+                </a>
+            </div>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={ChatApp} />
+            <div className='links'>
+                <a href='https://github.com/Subham-hyna/mern-chat-app' target='_15'>
+                <button className='p-button'>Code</button>
+                </a>
+                <a href='https://chat-app-7226.onrender.com/' target='_16'>
                 <button className='p-button'>Live</button>
                 </a>
             </div>
