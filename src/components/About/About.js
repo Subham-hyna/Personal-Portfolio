@@ -19,6 +19,7 @@ import Tailwind from './LOGO/Tailwind.png'
 import Bootstrap from './LOGO/Bootstrap.png'
 import ReactLogo from './LOGO/REACT.png'
 import Jquery from './LOGO/Jquery.png'
+import ReduxLogo from './LOGO/redux.png'
 
 const About = () => {
     const theme =useContext(themeContext);
@@ -85,6 +86,10 @@ const About = () => {
                     <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #0ea5e9, 0 2px 4px -2px #0ea5e9'}}>
                             <img src={ReactLogo} style={{width : '40px'}}/>
                             <span style={{color : darkMode ? 'white' : ''}}>React</span>
+                    </div>
+                    <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #b426fd, 0 2px 4px -2px #b426fd'}}>
+                            <img src={ReduxLogo} style={{width : '40px'}}/>
+                            <span style={{color : darkMode ? 'white' : ''}}>Redux</span>
                     </div>
                     <div className='skill-box' style={{boxShadow:' 0 4px 6px -1px #06b6d4, 0 2px 4px -2px #06b6d4'}}>
                             <img src={Tailwind} style={{width : '40px'}}/>
